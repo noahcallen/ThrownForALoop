@@ -1,0 +1,15 @@
+/Users/noahallen/workspace/CsFoundations/week1/ThrownForALoop/bin/Debug/net8.0/ThrownForALoop
+/Users/noahallen/workspace/CsFoundations/week1/ThrownForALoop/bin/Debug/net8.0/ThrownForALoop.deps.json
+/Users/noahallen/workspace/CsFoundations/week1/ThrownForALoop/bin/Debug/net8.0/ThrownForALoop.runtimeconfig.json
+/Users/noahallen/workspace/CsFoundations/week1/ThrownForALoop/bin/Debug/net8.0/ThrownForALoop.dll
+/Users/noahallen/workspace/CsFoundations/week1/ThrownForALoop/bin/Debug/net8.0/ThrownForALoop.pdb
+/Users/noahallen/workspace/CsFoundations/week1/ThrownForALoop/obj/Debug/net8.0/ThrownForALoop.GeneratedMSBuildEditorConfig.editorconfig
+/Users/noahallen/workspace/CsFoundations/week1/ThrownForALoop/obj/Debug/net8.0/ThrownForALoop.AssemblyInfoInputs.cache
+/Users/noahallen/workspace/CsFoundations/week1/ThrownForALoop/obj/Debug/net8.0/ThrownForALoop.AssemblyInfo.cs
+/Users/noahallen/workspace/CsFoundations/week1/ThrownForALoop/obj/Debug/net8.0/ThrownForALoop.csproj.CoreCompileInputs.cache
+/Users/noahallen/workspace/CsFoundations/week1/ThrownForALoop/obj/Debug/net8.0/ThrownForALoop.sourcelink.json
+/Users/noahallen/workspace/CsFoundations/week1/ThrownForALoop/obj/Debug/net8.0/ThrownForALoop.dll
+/Users/noahallen/workspace/CsFoundations/week1/ThrownForALoop/obj/Debug/net8.0/refint/ThrownForALoop.dll
+/Users/noahallen/workspace/CsFoundations/week1/ThrownForALoop/obj/Debug/net8.0/ThrownForALoop.pdb
+/Users/noahallen/workspace/CsFoundations/week1/ThrownForALoop/obj/Debug/net8.0/ThrownForALoop.genruntimeconfig.cache
+/Users/noahallen/workspace/CsFoundations/week1/ThrownForALoop/obj/Debug/net8.0/ref/ThrownForALoop.dll

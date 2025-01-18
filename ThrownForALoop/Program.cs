@@ -12,22 +12,21 @@ List<Product> products = new List<Product>()
   {
     Name = "Football",
     Price = 15,
-    Sold = false
+    Sold = false,
+    StockDate = new DateTime(2022, 10, 20),
+    ManufactureYear = 2010
   },
   new Product()
   {
     Name = "Hockey Stick",
     Price = 12,
-    Sold = false
+    Sold = false,
+    StockDate = new DateTime(2021, 10, 20),
+    ManufactureYear = 2014
   }
 };
 
-// Console.WriteLine(@"Products:
-// 1. Football
-// 2. Hockey Stick
-// 3. Boomerang
-// 4. Frisbee
-// 5. Golf Putter");
+DateTime now = DateTime.Now;
 
 Console.WriteLine("Products:");
 for (int i = 0; i < products.Count; i++)
@@ -41,5 +40,9 @@ int response = int.Parse(Console.ReadLine().Trim());
 while (response > products.Count || response < 1)
 {
   Product chosenProduct= products[response-1];
-  Console.WriteLine($"You chose: , {chosenProduct.Name}, which cost {chosenProduct.Price} dollars and is {(chosenProduct.Sold ? "" : "not ")}sold.");
+  TimeSpan timeInStock = now - chosenProduct.StockDate;
+Console.WriteLine(@$"You chose: 
+{chosenProduct.Name}, which costs {chosenProduct.Price} dollars.
+It is {now.Year - chosenProduct.ManufactureYear} years old. 
+It {(chosenProduct.Sold ? "is not available." : $"has been in stock for {timeInStock.Days} days.")}");
 }
